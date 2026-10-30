@@ -3,7 +3,7 @@
   "name": "Syntax Lens",
   "version": "0.1.0",
   "minAppVersion": "1.7.0",
-  "description": "A privacy-first, context-aware linguistic lens for English notes.",
+  "description": "Highlight English sentence structure around the cursor.",
   "author": "Dylan Chidambaram",
   "isDesktopOnly": true
 }

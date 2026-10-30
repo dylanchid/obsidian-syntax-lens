@@ -1,6 +1,6 @@
 # Syntax Lens
 
-A privacy-first, context-aware linguistic lens for English notes.
+Highlight English sentence structure around the cursor.
 
 ## Use
 
@@ -12,7 +12,7 @@ Copy `manifest.json`, `main.js`, and `styles.css` (if present) into `<vault>/.ob
 
 ## Source
 
-This repository contains the installed JavaScript plugin. The original TypeScript source is not available in the vault.
+This plugin is written in JavaScript. `main.js` is the source.
 
 ## License
 
