@@ -4,6 +4,6 @@
   "version": "0.1.0",
   "minAppVersion": "1.7.0",
   "description": "A privacy-first, context-aware linguistic lens for English notes.",
-  "author": "Syntax Lens",
+  "author": "Dylan Chidambaram",
   "isDesktopOnly": true
 }
