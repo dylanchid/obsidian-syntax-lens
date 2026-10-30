@@ -1,0 +1,19 @@
+.syntax-lens-mark { text-decoration-line: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+.syntax-lens-subtle { opacity: 0.58; }
+.syntax-lens-normal { opacity: 0.82; text-decoration-thickness: 1.5px; }
+.syntax-lens-strong { opacity: 1; text-decoration-thickness: 2px; }
+.syntax-lens-verb-phrase { text-decoration-style: solid; text-decoration-color: var(--color-blue); }
+.syntax-lens-subject, .syntax-lens-object, .syntax-lens-noun-phrase { text-decoration-style: dotted; text-decoration-color: var(--color-green); }
+.syntax-lens-prepositional-phrase, .syntax-lens-modifier { text-decoration-style: dashed; text-decoration-color: var(--color-orange); }
+.syntax-lens-clause { background: color-mix(in srgb, var(--color-purple) 9%, transparent); border-radius: 2px; }
+.syntax-lens-pos { text-decoration-style: dotted; text-decoration-color: var(--text-muted); }
+.syntax-lens-popover {
+  position: fixed; z-index: var(--layer-popover); max-width: 310px; padding: 10px 12px;
+  border: 1px solid var(--background-modifier-border); border-radius: 7px;
+  background: var(--background-primary); box-shadow: 0 5px 18px var(--background-modifier-box-shadow);
+  color: var(--text-normal); font-size: var(--font-ui-small);
+}
+.syntax-lens-detail, .syntax-lens-confidence { color: var(--text-muted); font-size: 0.9em; margin-top: 4px; }
+.syntax-lens-explanation { margin-top: 7px; line-height: 1.4; }
+.syntax-lens-actions { margin-top: 9px; }
+.syntax-lens-actions button { font-size: var(--font-ui-smaller); }
